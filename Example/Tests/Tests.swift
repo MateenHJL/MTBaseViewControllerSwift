@@ -1,5 +1,4 @@
 import XCTest
-import BaseViewControllerSwift
 
 class Tests: XCTestCase {
     

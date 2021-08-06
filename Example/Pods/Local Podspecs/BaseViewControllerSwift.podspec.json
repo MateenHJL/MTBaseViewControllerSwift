@@ -1,0 +1,40 @@
+{
+  "name": "BaseViewControllerSwift",
+  "version": "1.0.3",
+  "summary": "A short description of BaseViewControllerSwift.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/13162378587@163.com/BaseViewControllerSwift",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "13162378587@163.com": "13162378587@163.com"
+  },
+  "source": {
+    "git": "https://github.com/13162378587@163.com/BaseViewControllerSwift.git",
+    "tag": "1.0.3"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "BaseViewControllerSwift/Classes/**/*",
+  "pod_target_xcconfig": {
+    "VALID_ARCHS": "x86_64 armv7 arm64"
+  },
+  "dependencies": {
+    "IQKeyboardManagerSwift": [
+
+    ],
+    "UIView+Positioning": [
+
+    ],
+    "BaseUIManagerSwift": [
+
+    ],
+    "MTHttpEngine": [
+
+    ]
+  },
+  "static_framework": true
+}

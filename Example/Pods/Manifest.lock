@@ -1,0 +1,75 @@
+PODS:
+  - BaseUIManagerSwift (1.0.9):
+    - Hue
+    - KVOController
+    - pop
+  - BaseViewControllerSwift (1.0.3):
+    - BaseUIManagerSwift
+    - IQKeyboardManagerSwift
+    - MTHttpEngine
+    - "UIView+Positioning"
+  - DateTools (2.0.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - Hue (5.0.0)
+  - IQKeyboardManagerSwift (6.5.6)
+  - ISRemoveNull (0.0.3)
+  - KVOController (1.2.0)
+  - MTHttpEngine (1.0.6):
+    - DateTools
+    - FMDB
+    - ISRemoveNull
+    - YYKit
+  - pop (1.0.12)
+  - "UIView+Positioning (1.6)"
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+
+DEPENDENCIES:
+  - BaseViewControllerSwift (from `../`)
+  - FBSnapshotTestCase (~> 2.1.4)
+
+SPEC REPOS:
+  trunk:
+    - BaseUIManagerSwift
+    - DateTools
+    - FBSnapshotTestCase
+    - FMDB
+    - Hue
+    - IQKeyboardManagerSwift
+    - ISRemoveNull
+    - KVOController
+    - MTHttpEngine
+    - pop
+    - "UIView+Positioning"
+    - YYKit
+
+EXTERNAL SOURCES:
+  BaseViewControllerSwift:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BaseUIManagerSwift: 5d38edd34d7cc14753ad6887796088300543bcb2
+  BaseViewControllerSwift: 9eab0b64ae5114c946094c607cea7f7a45ac7d82
+  DateTools: 933ac9c490f21f92127cf690ccd8c397e0126caf
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  Hue: c129cb67be7d093a82bbbc30ce8a96757bf6f37a
+  IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
+  ISRemoveNull: 7fb2bb73a9f173cd1d12e9cbd7c7d8766d939b4d
+  KVOController: d72ace34afea42468329623b3379ab3cd1d286b6
+  MTHttpEngine: a91cd4f19a2b251085800ddb7e71e4c7d50e3f75
+  pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
+  "UIView+Positioning": 6e7236a429053ade11051fab7ff9053af36c77a8
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+
+PODFILE CHECKSUM: 064f29580a21713bb52a0ca1eb221b22ec80c41a
+
+COCOAPODS: 1.10.2

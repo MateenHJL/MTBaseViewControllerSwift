@@ -7,15 +7,37 @@
 //
 
 import UIKit
+import BaseViewControllerSwift
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
-
+    
+    var tabbar : BaseTabbarController?
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        
+        BaseViewControllerConfigManager.shareViewControllerConfig().setupHttpEngineWithConfig(config: TestConfig.init())
+        
+        self.window = UIWindow.init(frame: UIScreen.main.bounds)
+        self.window?.backgroundColor = UIColor.clear
+        var array : Array<BaseTabbarItem> = []
+        for i in 0...3 {
+            let item : BaseTabbarItem = BaseTabbarItem.init()
+            item.badgeValue = "3"
+            item.selectedImage = UIImage.init(named: "authing")
+            item.normalImage = UIImage.init(named: "authing")
+            item.normalTitle = "哈哈"
+            item.classInstance = CViewController.init()
+            item.tabbarItemType = i
+            array.append(item)
+        }
+        self.tabbar = BaseTabbarController.init()
+        self.tabbar!.resetTabbarForDataModelArray(modelArray: array)
+        self.window?.rootViewController = self.tabbar
         return true
     }
 
