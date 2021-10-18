@@ -7,8 +7,8 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'BaseViewControllerSwift'
-  s.version          = '1.0.7'
+  s.name             = 'MTBaseViewControllerSwift'
+  s.version          = '1.0.8'
   s.summary          = 'A short description of BaseViewControllerSwift.'
 
 # This description is used to generate tags and improve search results.
