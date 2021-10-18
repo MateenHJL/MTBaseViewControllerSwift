@@ -3,7 +3,7 @@ PODS:
     - Hue
     - KVOController
     - pop
-  - BaseViewControllerSwift (1.0.3):
+  - BaseViewControllerSwift (1.0.5):
     - BaseUIManagerSwift
     - IQKeyboardManagerSwift
     - MTHttpEngine
@@ -57,7 +57,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   BaseUIManagerSwift: 5d38edd34d7cc14753ad6887796088300543bcb2
-  BaseViewControllerSwift: 9eab0b64ae5114c946094c607cea7f7a45ac7d82
+  BaseViewControllerSwift: a9679046d87668acac081acf3145e2ef2406985a
   DateTools: 933ac9c490f21f92127cf690ccd8c397e0126caf
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
@@ -72,4 +72,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 064f29580a21713bb52a0ca1eb221b22ec80c41a
 
-COCOAPODS: 1.10.2
+COCOAPODS: 1.11.2

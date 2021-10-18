@@ -1,9 +1,9 @@
 {
   "name": "BaseViewControllerSwift",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "summary": "A short description of BaseViewControllerSwift.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/13162378587@163.com/BaseViewControllerSwift",
+  "homepage": "https://github.com/MateenHJL/BaseViewControllerSwift.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,8 +12,8 @@
     "13162378587@163.com": "13162378587@163.com"
   },
   "source": {
-    "git": "https://github.com/13162378587@163.com/BaseViewControllerSwift.git",
-    "tag": "1.0.3"
+    "git": "https://github.com/MateenHJL/BaseViewControllerSwift.git",
+    "tag": "1.0.5"
   },
   "platforms": {
     "ios": "9.0"
